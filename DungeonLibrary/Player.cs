@@ -32,7 +32,7 @@ namespace DungeonLibrary
                     Life = MaxLife += 10;
                     Dodge -= 5;
                     break;
-                case Race.Elf: //=========================================== FIX LIFE VALUES ===========================================
+                case Race.Elf: 
                     Life = MaxLife -= 5;
                     HitChance += 10;
                     Dodge += 5;
@@ -94,10 +94,10 @@ namespace DungeonLibrary
                     break;
             }
             #endregion
-            return base.ToString() + $"\nWeapon: {EquippedWeapon}\n" +
-                                     $"Player Score: {Score}\n\n" +
+            return base.ToString() + $"\nWeapon: {EquippedWeapon}\n\n" +
+                                     $"Player Score: {Score}\n" +
                                      $"Selected Race: {PlayerRace}\n" +
-                                     $"Description: {description}";
+                                     $"Race description: {description}";
         }
 
         public override int CalcDamage()
