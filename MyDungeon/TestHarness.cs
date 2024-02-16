@@ -19,7 +19,7 @@ namespace MyDungeon
 
             #region Title / Introduction
             Console.ForegroundColor = ConsoleColor.Gray;
-            Console.WriteLine(@"Your Journey Begins....\n
+            Console.WriteLine(@"Your Journey Begins....
                                              _                                   
                                             | |                                   
                                           __| |_   _ _ __   __ _  ___  ___  _ __  
@@ -57,7 +57,7 @@ namespace MyDungeon
             string userName = Console.ReadLine();
             Console.Clear();
             Console.ForegroundColor = ConsoleColor.Gray;
-            Console.WriteLine(@$"Welcome to the dungeon {userName}!\n
+            Console.WriteLine(@$"Welcome to the dungeon {userName}!
        ___________________
       /.-------+-+-------.\
      //        :|:     :::\\
@@ -103,7 +103,7 @@ namespace MyDungeon
 
             };
             Console.ForegroundColor = ConsoleColor.Yellow;
-            Console.WriteLine(@"\nChoose a weapon for your player:
+            Console.WriteLine(@"Choose a weapon for your player:
                            ___
                           ( ((
                            ) ))
@@ -140,7 +140,7 @@ namespace MyDungeon
 
             Weapon selectedWeapon = starterList[userInput - 1];
             Console.Clear();
-            Console.WriteLine($"You've chosen the {selectedWeapon.Name}!\nYour Character Below!!!");
+            Console.WriteLine($"You've chosen the {selectedWeapon.Name}!\n");
 
             Player player = new Player(userName, 60, 10, 70, userRace, selectedWeapon);
             Console.WriteLine(player);
@@ -290,7 +290,7 @@ namespace MyDungeon
                             myplayer.controls.stop();
                             myplayer.URL = "C:\\Game Over Man!.mp3";
                             myplayer.controls.play();
-                            Console.WriteLine("No one likes a quitter.");
+                            Console.WriteLine("Yeah, run away you coward. Taking my game back *Initializing Uninstall Wizard*");
                             exit = true;
                             break;
 
@@ -321,7 +321,7 @@ namespace MyDungeon
 
             #region Outro
             //Final Score, end the story
-            Console.WriteLine($"You defeated {player.Score} monster(s).");
+            Console.WriteLine($"Your Final Score: {player.Score}! I expected better n00b");
             //Main(args); restart the app?
             Console.ReadKey(true);
             #endregion

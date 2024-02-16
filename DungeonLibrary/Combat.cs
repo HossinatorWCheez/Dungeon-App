@@ -73,11 +73,11 @@ namespace DungeonLibrary
 
                 //int coins += new Random().Next(1, 11);
                 #endregion
-
-                player.Score += new Random().Next(1, 7);
-                player.Life += player.MaxLife % 5;
+                int scoreAdd = new Random().Next(1, 7);
+                player.Score += scoreAdd;
+                player.Life += player.MaxLife / 5;
                 Console.ForegroundColor = ConsoleColor.Green;
-                Console.WriteLine($"\nYou Killed {monster.Name}!\n\n\n+{player.Score} Player score!");
+                Console.WriteLine($"\nYou Killed {monster.Name}!\n\n\n+{scoreAdd} Player score!");
                 Console.ResetColor();
                 return true;//Victory!!! (monster is dead)
             }
