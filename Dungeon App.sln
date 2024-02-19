@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyDungeon", "MyDungeon\MyDu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DungeonLibrary", "DungeonLibrary\DungeonLibrary.csproj", "{B4B49733-7C14-4DF4-ACF5-4B2F231C1893}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DungeonTests", "DungeonTests\DungeonTests.csproj", "{68D15EDC-73F8-453D-838C-C47BDE777CB1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DungeonTests", "DungeonTests\DungeonTests.csproj", "{68D15EDC-73F8-453D-838C-C47BDE777CB1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

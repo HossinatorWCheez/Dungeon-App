@@ -70,9 +70,9 @@ namespace DungeonLibrary
             Monster m1 = new Monster("Goblin", 30, 20, 18, 8, 1, "A mischievous creature with sharp claws.");
             Monster m2 = new Monster("Skeleton Warrior", 40, 10, 20, 10, 1, "A reanimated skeleton wielding a rusty sword.");
             Monster m3 = new Monster("Cave Troll", 60, 5, 35, 5, 1, "A massive and hulking creature dwelling in dark caverns.");
-            Monster m4 = new Monster("Cave Spider", 55, 15, 30, 18, 3, "A human-sized spider large enough it has audible steps");
-            Monster m5 = new Monster("Banshee", 50, 15, 25, 15, 5, "A wailing spirit capable of haunting nightmares and rupturing ear drums with just screams");
-            Monster m6 = new Monster("Drake", 50, 25, 35, 15, 4, "A fearsome scaled creature resembling the shape of a Lion, possesses sharp teeth and a bone crushing bite force");
+            Monster m4 = new Monster("Cave Spider", 55, 15, 30, 12, 3, "A human-sized spider large enough it has audible steps");
+            Monster m5 = new Monster("Banshee", 50, 15, 25, 15, 1, "A wailing spirit capable of haunting nightmares and rupturing ear drums with just screams");
+            Monster m6 = new Monster("Drake", 50, 25, 35, 13, 2, "A fearsome scaled creature resembling the shape of a Lion, possesses sharp teeth and a bone crushing bite force");
             Monster m7 = new Monster("Dark Necromancer", 75, 30, 28, 13, 4, "A sinister sorcerer commanding the undead with dark magic.");
             SpiderQueen s1 = new SpiderQueen("Spider Queen", 55, 15, 30, 15, 3, "A human-sized spider large enough it has audible steps", true);
             Banshee b1 = new Banshee("Dreadful Banshee", 50, 30, 25, 12, 5, "A wailing spirit capable of haunting nightmares and rupturing ear drums with just screams", true);

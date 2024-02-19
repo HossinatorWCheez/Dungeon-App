@@ -119,7 +119,7 @@
                 $"Damage: {MinDamage} - {MaxDamage}\n" +
                 $"Bonus Hit: {BonusHitChance}%\n" +
                 $"{(IsTwoHanded ? "Two" : "One")}-Handed {Type}\n" +
-                $"Price: {Cost} Score";
+                $"Price: {Cost} Score\n";
         }
 
         //public static Weapon GetStarterWeapon(List<Weapon> weapons)

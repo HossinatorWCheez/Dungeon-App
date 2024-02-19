@@ -77,7 +77,7 @@ namespace DungeonLibrary
                 player.Score += scoreAdd;
                 player.Life += player.MaxLife / 5;
                 Console.ForegroundColor = ConsoleColor.Green;
-                Console.WriteLine($"\nYou Killed {monster.Name}!\n\n\n+{scoreAdd} Player score!");
+                Console.WriteLine($"\nYou Killed {monster.Name}!\n\n+{scoreAdd} Player score!\nTotal Player Score = {player.Score}\n\n");
                 Console.ResetColor();
                 return true;//Victory!!! (monster is dead)
             }
